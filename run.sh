@@ -9,17 +9,18 @@
 curl -X PROPFIND \
      --user "$GUSER:$GPASS" \
      -i \
-     "https://google.com/m8/carddav/principals/__uids__/$GUSER/lists/default/"
-echo " ----------- "
+     "https://google.com/m8/carddav/principals/__uids__/$GUSER/lists/"
+echo
+echo "----------- "
 
-curl -X GET \
-     --user "$GUSER:$GPASS" \
-     -i \
-     "https://google.com/m8/carddav/principals/__uids__/$GUSER/lists/default/62ea2f4088525c96"
-echo " ----------- "
-
-curl -X GET \
-     --user "$GUSER:$GPASS" \
-     -i \
-     "https://google.com/m8/carddav/principals/__uids__/$GUSER/lists/default/12c7b5818badd1aa"
-echo " ----------- "
+# curl -X GET \
+#      --user "$GUSER:$GPASS" \
+#      -i \
+#      "https://google.com/m8/carddav/principals/__uids__/$GUSER/lists/default/62ea2f4088525c96"
+# echo " ----------- "
+# 
+# curl -X GET \
+#      --user "$GUSER:$GPASS" \
+#      -i \
+#      "https://google.com/m8/carddav/principals/__uids__/$GUSER/lists/default/12c7b5818badd1aa"
+# echo " ----------- "
