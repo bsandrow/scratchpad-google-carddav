@@ -9,7 +9,7 @@
 curl -X PROPFIND \
      --user "$GUSER:$GPASS" \
      -i \
-     "https://google.com/m8/carddav/principals/__uids__/$GUSER/lists/"
+     "https://google.com/m8/carddav/principals/__uids__/$GUSER/"
 echo
 echo "----------- "
 
